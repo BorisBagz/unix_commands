@@ -109,3 +109,31 @@ check the user that is using the terminal
 > echo "test"
 
 print "test" on the terminal
+---------------------------------------------------------
+> clear
+
+clear the terminal
+---------------------------------------------------------
+
+
+WILDCARDS:
+
+> *
+
+means "everything in this folder"
+
+i.e
+
+> rm *
+
+this command will delete all the files in the folder in which we're right now
+---------------------------------------------------------
+> .
+
+means "here" or the folder in which you currently are
+
+i.e:
+
+> cp folder_name/file2 .
+
+this command will copy the file "file2" located inside the folder "folder_name" right in the folder in which we're standing
