@@ -53,3 +53,59 @@ to see the path in which you're in
 > pwd filename
 
 to see the path of filename
+---------------------------------------------------------
+> cat filename
+
+to print the contents of filename in the terminal (if possible)
+---------------------------------------------------------
+> nano filename
+
+to open filename in the nano text editor (if installed)
+---------------------------------------------------------
+> vi filename
+
+to open filename in the vim text editor (if installed)
+---------------------------------------------------------
+> touch filename
+
+to create an empty file called filename
+---------------------------------------------------------
+> mkdir folder_name
+
+create a new folder named folder_name
+---------------------------------------------------------
+> chmod +x filename
+
+make filename an executable file
+---------------------------------------------------------
+> chmod -x filename
+
+remove the permission to execute filename
+---------------------------------------------------------
+> chmod +r filename
+
+make filename a readable file
+---------------------------------------------------------
+> su
+
+log in the terminal as root user (user with most privileges)
+---------------------------------------------------------
+> su user2
+
+log in the terminal as user2
+---------------------------------------------------------
+> sudo nano
+
+open the nano text editor as the root user
+---------------------------------------------------------
+> cat filename | grep "test"
+
+print (on the terminal) the lines in which the word "test" appears in the filename file
+---------------------------------------------------------
+> whoami
+
+check the user that is using the terminal
+---------------------------------------------------------
+> echo "test"
+
+print "test" on the terminal
