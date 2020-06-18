@@ -137,3 +137,22 @@ i.e:
 > cp folder_name/file2 .
 
 this command will copy the file "file2" located inside the folder "folder_name" right in the folder in which we're standing
+
+
+GITHUB:
+
+> git clone https://github.com/borisbagz/myrepo
+
+makes a copy of the repository "myrepo" in the local computer
+---------------------------------------------------------
+> git add filename
+
+add the file filename into the git queue that can be then pushed into the remote repository
+---------------------------------------------------------
+> git commit -m "test"
+
+commit the changes with the message "test"
+---------------------------------------------------------
+> git push
+
+send the changes to the remote repository
