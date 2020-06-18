@@ -1,7 +1,12 @@
-Most commonly used Command Line commands for UNIX and Mac
----------------------------------------------------------
+ -----------------------------------------------------------
+| Most commonly used Command Line commands for UNIX and Mac |
+ -----------------------------------------------------------
 
----------------------------------------------------------
+
+
+_________________________________________________________
+OS AND FILES MANAGEMENT:
+
 > cd folder_name/
 
 to move into folder_name
@@ -116,6 +121,8 @@ clear the terminal
 ---------------------------------------------------------
 
 
+
+_________________________________________________________
 WILDCARDS:
 
 > *
@@ -137,8 +144,13 @@ i.e:
 > cp folder_name/file2 .
 
 this command will copy the file "file2" located inside the folder "folder_name" right in the folder in which we're standing
+_________________________________________________________
 
 
+
+
+
+_________________________________________________________
 GITHUB:
 
 > git clone https://github.com/borisbagz/myrepo
@@ -156,3 +168,4 @@ commit the changes with the message "test"
 > git push
 
 send the changes to the remote repository
+_________________________________________________________
