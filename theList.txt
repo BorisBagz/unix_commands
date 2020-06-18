@@ -1,1 +1,55 @@
-test
+Most commonly used Command Line commands for UNIX and Mac
+---------------------------------------------------------
+
+---------------------------------------------------------
+> cd folder_name/
+
+to move into folder_name
+---------------------------------------------------------
+> cd ...
+
+to move to the parent folder
+---------------------------------------------------------
+> ls
+
+to list the content of the folder in which you're in
+---------------------------------------------------------
+> ls folder_name/
+
+to list the content of folder_name
+---------------------------------------------------------
+> ls -l
+
+to list the content of the folder in which you're in, including information as: permissions, owners, dates...
+---------------------------------------------------------
+> cp filename folder_name/
+
+to copy filename into folder_name/
+---------------------------------------------------------
+> cp filename filename2
+
+to make a copy of filename and name it filename2
+---------------------------------------------------------
+> mv filename folder_name/
+
+to move filename into folder_name/
+---------------------------------------------------------
+> mv filename filename2
+
+to move the content of filename into the content of filename2, overwriting it
+---------------------------------------------------------
+> rm filename
+
+to delete filename
+---------------------------------------------------------
+> rm -r folder_name/
+
+to delete folder_name/ and its contents
+---------------------------------------------------------
+> pwd
+
+to see the path in which you're in
+---------------------------------------------------------
+> pwd filename
+
+to see the path of filename
